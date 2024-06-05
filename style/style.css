@@ -323,6 +323,7 @@ main{
 
 #about .about-col .info-col{
     flex-basis: 70%;
+    
 }
 
 #about .about-col .info-col h2{
@@ -338,6 +339,7 @@ main{
     font-size: 15px;
     letter-spacing: 0.5px;
     font-style: italic;
+    margin-top: 10px;
 }
 
 #about .about-col .info-col .icon-list-col{
@@ -440,6 +442,7 @@ main{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     margin-top: 50px;
+    text-align: center;
 }
 
 #fact .fact-row .fact-box i{
