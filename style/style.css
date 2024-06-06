@@ -190,7 +190,7 @@ main{
 #home{
     height: 100vh;
     width: 100%;
-    /* background-image: url(../assets/portfolio_1.jpeg); */
+    background-image: url(../imgs/nn3.jpg);    
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -198,7 +198,7 @@ main{
     justify-content: center;
     padding: 70px;
     position: relative;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 #home::before{
@@ -655,6 +655,14 @@ main{
     font-size: 15px;
     font-weight: 500;
     padding-bottom: 15px;
+}
+
+#education .edu-row .edu-cols .my-edu ul li{
+    margin: 10px 0;
+    margin-left: 20px;
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
 }
 
 #education .edu-row .edu-cols .pro-exp{

@@ -6,9 +6,9 @@ menuBtn.addEventListener("click", function(e){
 });
 
 let typed = new Typed("#auto-input",{
-    strings: ['ML Engineer','Life Long Learner',"DL Engineer"],
+    strings: ['AI/ML Intern','Data Science Enthusiast',"Life Long Learner","step-by-step improver, just like gradient descent"],
     typeSpeed: 90,
-    backSpeed: 90,
+    backSpeed: 40,
     backDelay: 100,
     loop: true,
 });
