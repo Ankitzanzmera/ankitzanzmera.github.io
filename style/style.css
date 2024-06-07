@@ -250,6 +250,8 @@ main{
     transition: 0.5s;
     background-color: var(--themeColor);
     box-shadow: 0 0 10px var(--sidebgColor);
+    font-size: 15px;
+
 }
 
 .btn:hover{

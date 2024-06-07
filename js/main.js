@@ -24,3 +24,25 @@ for (let i = 0; i<links.length; i++){
         this.className ="active";
     });
 };
+
+
+var hireButton = document.getElementById('hireButton');
+
+hireBtn.addEventListener('click', function() {
+    scrollToContact();
+});
+
+function scrollToContact() {
+    var contactSection = document.getElementById("contact");
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function showPDF() {
+    // Get the URL of the PDF file
+    var pdfURL = "artifacts/Ankit_zanzmera_resume.pdf";
+    window.open(pdfURL, '_blank');
+}
+
+
+
+
